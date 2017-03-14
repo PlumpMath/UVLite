@@ -29,7 +29,8 @@
 # Build artifacts
 Default/
 Debug/
-#bin/
+bin/*
+!bin/win-bash
 *.VC.db
 *.sln
 *.vcxproj
