@@ -30,6 +30,7 @@
 Default/
 Debug/
 #bin/
+*.VC.db
 *.sln
 *.vcxproj
 Makefile

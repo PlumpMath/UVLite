@@ -1,15 +1,15 @@
-## Copyright 2017 Sathyanesh Krishnan
+### Copyright 2017 Sathyanesh Krishnan
 
-## Licensed under the Apache License, Version 2.0
+### Licensed under the Apache License, Version 2.0
 
 UVLite
 ======
-UVLite will be a starter project template for libuv applications on cross platform. This cross platform build infrastructure is being created based on haywire.
+UVLite is be a starter project template for libuv applications on cross platform. This cross platform build infrastructure is being created based on haywire.
 
 
 ## Features
 - cross platform libuv build 
-- Sample
+- build Samples
 
 
 ## Helpful libuv learning resources
@@ -36,7 +36,7 @@ brew install openssl
 ./make.sh
 ```
 ## Compiling on Windows
-Open the Visual 2015 Studio x64 Command Prompt
+Open Visual Studio 2015 x64 Command Prompt
 ```
 build.bat
 ```
