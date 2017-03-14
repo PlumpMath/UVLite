@@ -29,7 +29,7 @@
 # Build artifacts
 Default/
 Debug/
-bin/
+#bin/
 *.sln
 *.vcxproj
 Makefile
