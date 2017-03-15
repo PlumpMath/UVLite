@@ -35,7 +35,8 @@ bin/*
 *.sln
 *.vcxproj
 Makefile
-haywire.Makefile
+UVLite.Makefile
+UVLite.VC.*
 *.mk
 gyp-mac-tool
 build/
@@ -44,7 +45,7 @@ build/
 lib/
 
 # Xcode
-Haywire.xcworkspace/
+UVLite.xcworkspace/
 
 # CLion
 .idea

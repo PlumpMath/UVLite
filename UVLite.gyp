@@ -113,6 +113,7 @@
         
         'include_dirs': [
           './include',
+          './lib/libuv/include',          
         ],
 
         'sources': [
@@ -145,6 +146,7 @@
         
         'include_dirs': [
           './include',
+          './lib/libuv/include',          
         ],
 
         'sources': [
