@@ -18,6 +18,7 @@ UVLite is be a starter project template for libuv applications on cross platform
 
 #### An Introduction to libuv
 [https://nikhilm.github.io/uvbook/](https://nikhilm.github.io/uvbook/)  
+[https://github.com/nikhilm/uvbook](https://github.com/nikhilm/uvbook)
 
 
 ## Dependencies

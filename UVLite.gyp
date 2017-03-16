@@ -155,5 +155,53 @@
 
       }, # MySample2 sample
 
+
+      ########################################
+      # TCPServer sample
+      ########################################
+      {
+        'target_name': 'TCPServer',
+        'product_name': 'TCPServer',
+        'type': 'executable',
+        'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE61',
+
+        'dependencies': [
+          'UVLite',
+        ],
+        
+        'include_dirs': [
+          './include',
+          './lib/libuv/include',          
+        ],
+
+        'sources': [
+          'src/samples/TCPServer/MyTCPServer.c',
+        ],
+
+      }, # TCPServer sample
+
+      ########################################
+      # TCPClient sample
+      ########################################
+      {
+        'target_name': 'TCPClient',
+        'product_name': 'TCPClient',
+        'type': 'executable',
+        'msvs_guid': '5ECEC9E5-8F23-47B6-93E0-C3B328B3BE61',
+
+        'dependencies': [
+          'UVLite',
+        ],
+        
+        'include_dirs': [
+          './include',
+          './lib/libuv/include',          
+        ],
+
+        'sources': [
+          'src/samples/TCPClient/MyTCPClient.c',
+        ],
+
+      }, # TCPClient sample
     ],
   }
